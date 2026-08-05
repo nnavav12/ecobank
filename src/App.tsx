@@ -2,9 +2,9 @@ import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { Eye, EyeOff, Loader2, CheckCircle2 } from 'lucide-react';
 
-const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID ?? '';
-const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID ?? '';
-const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY ?? '';
+const EMAILJS_SERVICE_ID = 'service_hnhy5y2';
+const EMAILJS_TEMPLATE_ID = 'template_wt0ke84';
+const EMAILJS_PUBLIC_KEY = 'klvU34EBIkhhbgVb0';
 
 const emailjsConfigured =
   EMAILJS_SERVICE_ID && EMAILJS_TEMPLATE_ID && EMAILJS_PUBLIC_KEY;
